@@ -6,6 +6,8 @@ class Deck {
 
     // List<string> spaces = new List<string>();
     IDictionary<int, int> deckOfCards = new Dictionary<int, int>();
+    public Deck(){
+    
     
     deckOfCards.Add(1,  1);
     deckOfCards.Add(2,  2);
@@ -62,12 +64,84 @@ class Deck {
     deckOfCards.Add(50, 11);
     deckOfCards.Add(51, 12);
     deckOfCards.Add(52, 13);
-
-public void randomCard(){
+}
+public object pickRandomCard(){
      Random rnd = new Random();
         int randCardIndex = rnd.Next(deckOfCards.Count);
         int randomCard = deckOfCards[randCardIndex];
+        return randomCard;
+    
+
+        
 }
+public object GuessCard(){
+    int randomCard = Convert.ToInt16(pickRandomCard());
+    Console.WriteLine($"your number is :{randomCard}");
+    Console.WriteLine($"Is the next card Higher or Lower?");
+    string? playerGuess = Console.ReadLine();
+    return playerGuess;
+      
+}
+
+public object pickNextCard(){
+    Random rnd = new Random();
+        int randCardIndex = rnd.Next(deckOfCards.Count);
+        int nextCard = deckOfCards[randCardIndex];  
+        return nextCard;
+}
+
+public object points(){
+
+    int previousCard = Convert.ToInt16(pickRandomCard());
+    int nextCard = Convert.ToInt16(pickNextCard());
+    string playerGuess = Convert.ToString(GuessCard());
+    // string correctAnswer = ("");
+    if (previousCard > nextCard){
+        string correctAnswer = "Lower";
+        return correctAnswer;
+    };
+    if (previousCard < nextCard){
+        string correctAnswer = "Higher";
+        return correctAnswer;
+    };
+
+    if  (playerGuess = correctAnswer){
+        //  Add 100 points
+        return playerGuess;
+    }
+    else if (playerGuess != correctAnswer){
+        // remove 75 points
+    }
+    return correctAnswer;
+    }
+
+    int randomCard = Convert.ToInt16(pickRandomCard());
+
+}
+public void discard(){
+    previousCard = pickRandomCard()
+    deckOfCards.Remove(randCardIndex);
+}
+    spades.Remove(index)
+
+   }
+       
+       
+         // Make a function to randomly pick a suit and then randomly pick
+    // a card within the suit, then remove that card from the list
+
+    // Make a higher or lower guessing function for the player
+    // And add/ subtract points when they get it right or wrong
+
+
+    // Make a win condition when the player goes through all the cards
+    // or when they get a certain amount of points
+
+    // Make a lose conditinon when the player loses all their points
+}
+
+// make class with two attributes or properties suit and number
+// object is the cards 
 
    
 //     List<int> hearts = new List<int>(){
@@ -100,28 +174,4 @@ public void randomCard(){
 // Random rnd = new Random();
  
 
-    pickCard{
-        
-    }
-
-    guessCard
-
-    discard
-    spades.Remove(index)
-
-   }
-       
-
-
-    // Make a function to randomly pick a suit and then randomly pick
-    // a card within the suit, then remove that card from the list
-
-    // Make a higher or lower guessing function for the player
-    // And add/ subtract points when they get it right or wrong
-
-
-    // Make a win condition when the player goes through all the cards
-    // or when they get a certain amount of points
-
-    // Make a lose conditinon when the player loses all their points
-}
+  
