@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\HigherOrLower\\HigherOrLower.csproj": {}
+    "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\HigherOrLower\\HigherOrLower.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\HigherOrLower\\HigherOrLower.csproj": {
+    "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\HigherOrLower\\HigherOrLower.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\HigherOrLower\\HigherOrLower.csproj",
+        "projectUniqueName": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\HigherOrLower\\HigherOrLower.csproj",
         "projectName": "HigherOrLower",
-        "projectPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\HigherOrLower\\HigherOrLower.csproj",
+        "projectPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\HigherOrLower\\HigherOrLower.csproj",
         "packagesPath": "C:\\Users\\bkt44\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\HigherOrLower\\obj\\",
+        "outputPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\HigherOrLower\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bkt44\\AppData\\Roaming\\NuGet\\NuGet.Config"

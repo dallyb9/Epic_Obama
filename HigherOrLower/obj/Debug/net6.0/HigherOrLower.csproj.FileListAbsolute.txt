@@ -1,0 +1,5 @@
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.csproj.AssemblyReference.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.AssemblyInfoInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.AssemblyInfo.cs
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.csproj.CoreCompileInputs.cache

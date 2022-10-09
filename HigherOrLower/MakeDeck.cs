@@ -1,14 +1,16 @@
 using System;
 using System.Collections.Generic;
 
-class Deck
+// public class Deck
 {
     // Make four suits with 13 cards each
 
     // List<string> spaces = new List<string>();
     IDictionary<int, int> deckOfCards = new Dictionary<int, int>();
+    //public SomeDictionary { get deckofCards; set dict = value; };
     public Deck()
     {
+        
 
 
         deckOfCards.Add(1, 1);
