@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Program
+// class Program
 {
     static void Main(string[] args)
     {
         Deck deck = new Deck();
         int points = 300;
+        Random rnd = new Random();
+        int test = deck.deckOfCards[0];
+        int randCardIndex = rnd.Next(deckOfCards.Count);
+        int randomCard = deckOfCards[randCardIndex];
 
         while (!IsGameOver(points))
         {
@@ -20,8 +24,13 @@ class Program
         board.print();
         Console.WriteLine("Good game. Thanks for playing!");
     }
-
-    int previousCard = Convert.ToInt16(pickRandomCard();
+    public object pickRandomCard(){
+        Random rnd = new Random();
+        int randCardIndex = rnd.Next(deck.deckOfCards.Count);
+        int randomCard = deckOfCards[randCardIndex];
+        return randomCard;
+    }
+    int previousCard = Convert.ToInt16(pickRandomCard());
     static bool IsGameOver(int points)
     {
         bool isGameOver = false;
@@ -42,23 +51,18 @@ class Program
     return isWinner;
     }
 
-public object pickRandomCard(){
-     Random rnd = new Random();
-        int randCardIndex = rnd.Next(deckOfCards.Count);
-        int randomCard = deckOfCards[randCardIndex];
-        return randomCard;
     
 
     public object GuessCard(){
-    int randomCard = Convert.ToInt16(pickRandomCard());
-    Console.WriteLine($"your number is :{randomCard}");
-    Console.WriteLine($"Is the next card Higher or Lower?");
-    string? playerGuess = Console.ReadLine();
-    return playerGuess;
+        int randomCard = Convert.ToInt16(pickRandomCard());
+        Console.WriteLine($"your number is :{randomCard}");
+        Console.WriteLine($"Is the next card Higher or Lower?");
+        string? playerGuess = Console.ReadLine();
+        return playerGuess;
       
     }
     public object pickNextCard(){
-    Random rnd = new Random();
+        Random rnd = new Random();
         int randCardIndex = rnd.Next(deckOfCards.Count);
         int nextCard = deckOfCards[randCardIndex];  
         return nextCard;
