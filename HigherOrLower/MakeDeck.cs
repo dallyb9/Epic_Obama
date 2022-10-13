@@ -69,6 +69,7 @@ public object pickRandomCard(){
      Random rnd = new Random();
         int randCardIndex = rnd.Next(deckOfCards.Count);
         int randomCard = deckOfCards[randCardIndex];
+
         return randomCard;
     
 
@@ -87,6 +88,7 @@ public object pickNextCard(){
     Random rnd = new Random();
         int randCardIndex = rnd.Next(deckOfCards.Count);
         int nextCard = deckOfCards[randCardIndex];  
+        deckOfCards.Remove(randCardIndex);
         return nextCard;
 }
 
@@ -125,7 +127,7 @@ public void discard(){
     spades.Remove(index)
 
    }
-       
+    //    Console.ReadLine()??"";
        
          // Make a function to randomly pick a suit and then randomly pick
     // a card within the suit, then remove that card from the list

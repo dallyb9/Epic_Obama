@@ -1,0 +1,5 @@
+/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.AssemblyReference.cache
+/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.GeneratedMSBuildEditorConfig.editorconfig
+/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfoInputs.cache
+/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfo.cs
+/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.CoreCompileInputs.cache

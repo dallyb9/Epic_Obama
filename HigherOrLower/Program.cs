@@ -4,7 +4,7 @@
     {
         Deck deck = new Deck();
 
-        while (!IsGameOver(deck))
+        while (deck.hasCards)
         {
             board.print();
 
@@ -19,3 +19,11 @@
     }
 
 }
+
+Console.WriteLine(" ___ ");
+Console.WriteLine("/___\");
+Console.WriteLine("\   /");
+Console.WriteLine(" \ /");
+Console.WriteLine("  O ");
+Console.WriteLine(" /|\");
+Console.WriteLine(" / \");
