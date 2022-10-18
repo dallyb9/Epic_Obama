@@ -8,3 +8,4 @@ class Word
         int wordindex = random.Next(0, words.Length);
         return words[wordindex];
     }
+}
