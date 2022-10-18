@@ -37,7 +37,7 @@ class Program
     /// Displays the board in a 3x3 grid.
     /// </summary>
     /// <param name="board">The board</param>
-  
+
 
     /// <summary>
     /// Determines if the game is over because of a win or a tie.
@@ -83,7 +83,7 @@ class Program
             isWinner = true;
         }
 
-        return isWinner; 
+        return isWinner;
     }
 
     /// <summary>
@@ -135,7 +135,8 @@ class Program
         Console.Write($"{currentPlayer}'s turn to choose a square (1-9): ");
         string? move_string = Console.ReadLine();
 
-        if (move_string is null) {
+        if (move_string is null)
+        {
             return 0;
         }
 

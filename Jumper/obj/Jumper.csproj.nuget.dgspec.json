@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/HigherOrLower.csproj": {}
+    "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj": {}
   },
   "projects": {
-    "/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/HigherOrLower.csproj": {
+    "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/HigherOrLower.csproj",
-        "projectName": "HigherOrLower",
-        "projectPath": "/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/HigherOrLower.csproj",
-        "packagesPath": "/Users/DallinBentley/.nuget/packages/",
-        "outputPath": "/Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/",
+        "projectUniqueName": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj",
+        "projectName": "Jumper",
+        "projectPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj",
+        "packagesPath": "C:\\Users\\bkt44\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/DallinBentley/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\bkt44\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
