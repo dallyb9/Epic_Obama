@@ -11,8 +11,8 @@ public void Play()
     var winningWord = word.ChooseWord();
     while (keepPlaying)
         {
-        display.displayWord();
-        display.displayJumper();
+        display.DisplayWord();
+        display.DisplayJumper();
         display.something(winningWord);
         var playerGuess = player.Guess();
         
