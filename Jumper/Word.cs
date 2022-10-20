@@ -1,8 +1,9 @@
 class Word
 
 {
-    static void Main(string[] args);
-    string[] words = { "eight", "whale", "Obama", "Stink", "Onion", "Snake", "Train", "Fries" };
+    // static void Main(string[] args);
+    string[] words = { "e i g h t", "w h a l e", "o b a m a", "s t i n k", 
+    "o n i o n", "s n a k e", "t r a i n", "f r i e s" };
 
     public string ChooseWord()
     {
@@ -10,14 +11,17 @@ class Word
         int wordindex = random.Next(0, words.Length);
         return words[wordindex];
     }
-
-
+ 
     // trying to get a method to pick a word then split it into
     // a list with each letter taking oen index
-    public void splitWord(){
-
-    char[] seperator = {' '};
-    String[] wordlist = words.Split(seperator);
+    public List<string> SplitWord(string winningWord){
+    string word = winningWord;
+    List<string> list = new List<string>();
+    list = word.Split(' ').ToList();
+    foreach(string letter in list){
+        Console.WriteLine(letter);
+    }
+    return list;
     }
    
 }
