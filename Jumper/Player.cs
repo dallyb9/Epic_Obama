@@ -9,7 +9,7 @@ class Player
         //          wordDisplay[letter] = guess;
         //      }
         // }
-        Console.Write("Guess a letter:");
+        Console.WriteLine("Guess a letter:");
         return Console.ReadLine() ?? "";
     }
     public bool KeepPlaying()

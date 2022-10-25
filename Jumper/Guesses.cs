@@ -5,6 +5,7 @@ class Guesses
 
     public void AddGuess(string playerGuess) {
         guessedChar.Add(playerGuess);
+        Console.WriteLine(guessedChar);
     }
 
     public bool testGuess(string playerGuess){
