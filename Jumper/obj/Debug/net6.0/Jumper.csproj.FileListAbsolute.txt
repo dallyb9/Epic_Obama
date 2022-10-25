@@ -1,0 +1,15 @@
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.deps.json
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.runtimeconfig.json
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.dll
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.pdb
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.csproj.AssemblyReference.cache
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.AssemblyInfoInputs.cache
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.AssemblyInfo.cs
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.csproj.CoreCompileInputs.cache
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.dll
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/refint/Jumper.dll
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.pdb
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.genruntimeconfig.cache
+/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/ref/Jumper.dll

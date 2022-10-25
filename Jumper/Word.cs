@@ -19,7 +19,7 @@ class Word
     List<string> list = new List<string>();
     list = word.Split(' ').ToList();
     foreach(string letter in list){
-        Console.WriteLine(letter);
+        Console.Write(letter);
     }
     return list;
     }

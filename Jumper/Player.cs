@@ -10,7 +10,8 @@ class Player
         //      }
         // }
         Console.Write("Guess a letter:");
-        return Console.ReadLine() ?? "";
+        string guess = Console.ReadLine() ?? "";
+        return guess;
     }
     public bool KeepPlaying()
     {

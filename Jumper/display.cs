@@ -20,6 +20,7 @@ class Display
     {
         // String[] word =     ["E ","I ","G ","H ","T "];
         String[] wordDisplay = {"_ ", "_ ", "_ ", "_ ", "_ "};
+        wordDisplay[0] = "e";
         Console.WriteLine($"{wordDisplay}");
     }
 
