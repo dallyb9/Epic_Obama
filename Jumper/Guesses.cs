@@ -1,17 +1,23 @@
 class Guesses
 {
-    int numGuesses = 4;
     List<string> guessedChar = new List<string>() {};
 
     public void AddGuess(string playerGuess) {
         guessedChar.Add(playerGuess);
     }
 
-    public bool testGuess(string playerGuess){
-        //if (playerGuess in word)
-        return true;
+//List<string>
+    public bool testGuess(string playerGuess, List<string> winningWordSplit){
+        Console.Write(winningWordSplit);
+        foreach (string letter in winningWordSplit){
+            Console.WriteLine(letter);
+            if (playerGuess == letter){
+                return true;
+            }
+        }
+        return false;
     }
-    public int badGuess()
+    public int badGuess(int numGuesses)
     {
         numGuesses -= 1;
         return numGuesses;

@@ -1,30 +1,47 @@
 class Display
 {
-    List<string> jumpGuy = new List<string>() { @" ___  ", @"/___\ ", @"\   / ", @" \ / ", "  O ", @" /|\ ", @" / \ " };
+    List<string> jumpGuy = new List<string>() { "\n", @" ___  ", @"/___\ ", @"\   / ", @" \ / ", "  O ", @" /|\ ", @" / \ " };
+    int lastGuess = 4;
+    //List<string> backupWordList = new List<string> {};
 
-    public void DisplayJumper()
+    public List<string> BackupList(List<string> winningWordSplit) {
+        List<string> backupWordList = new List<string> {};
+        backupWordList = winningWordSplit;
+        return backupWordList;
+    }
+    public void DisplayJumper(int numGuesses)
     {
+        
+        if (lastGuess > numGuesses) {
+            Console.WriteLine("lost point");
+            jumpGuy.RemoveAt(1);}
         foreach (string line in jumpGuy){
-            Console.WriteLine(line);
-              }
-    //     Console.WriteLine(" ___  ");
-    //     Console.WriteLine("/___\ ");
-    //     Console.WriteLine("\   / ");
-    //     Console.WriteLine(" \ / ");
-    //     Console.WriteLine("  O ");
-    //     Console.WriteLine(" /|\ ");
-    //     Console.WriteLine(" / \ ");
-    // }
+            Console.WriteLine(line);}
+        lastGuess = numGuesses;
     }
-    public void DisplayWord()
+    public void DisplayWord(List<string> winningWordSplit, List<string> backupWordList)
     {
-        // String[] word =     ["E ","I ","G ","H ","T "];
-        String[] wordDisplay = {"_ ", "_ ", "_ ", "_ ", "_ "};
-        wordDisplay[0] = "e";
-        Console.WriteLine($"{wordDisplay}");
-    }
 
-    //string word = Word.ChooseWord(word);
-
-
+        // string wordAppend = "";
+        // if plyaerGuess = 
+        // wordAppend += playerGuess
+        List<string> blankDisplay = new List<string> {"_ ", "_ ", "_ ", "_ ", "_ "};
+    
+        Console.Write("\n");
+        Console.Write(backupWordList.Count());
+        foreach(string letter in backupWordList){
+            // Console.Write(letter);
+            bool missingletter = false;
+            if (winningWordSplit.Contains(letter)){
+                missingletter = true;
+            }
+            
+            if (missingletter == false){
+                Console.Write(letter);
+                //blankDisplay[index] = (letter1);
+                }
+            else {Console.Write("_ ");}
+            //index++;
+            }
+        }
 }
