@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bZYE4QkXoQGFtOMAJWnQP7hqq0ij5eD4of70jxPHoaGcTCoz2PR3N/a2l2H3XvM7yPJFDC6j3XgpRZO5R/wH/g==",
+  "success": true,
+  "projectFilePath": "/Users/DallinBentley/Documents/github/Epic_Obama/Greed/Greed.csproj",
+  "expectedPackageFiles": [
+    "/Users/DallinBentley/.nuget/packages/raylib-cs/4.2.0.1/raylib-cs.4.2.0.1.nupkg.sha512",
+    "/Users/DallinBentley/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
