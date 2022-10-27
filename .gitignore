@@ -1,0 +1,15 @@
+
+*.dll
+Jumper/bin/Debug/net6.0/Jumper.dll
+*.cache
+*.dll
+*.pdb
+*.dll
+*.dll
+*.pdb
+*.dll
+*.dll
+*.pdb
+*.dll
+*.dll
+Jumper/obj/Debug/net6.0/Jumper.dll
