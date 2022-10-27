@@ -39,9 +39,7 @@ namespace HelloWorld
                 if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN)) {
                     BallPosition.Y  += BallMovementSpeed;
                 }
-                if (Raylib BallPosition>= ScreenHeight){
-                    
-                }
+               
 
                 Raylib.DrawCircleV(BallPosition, BallRadius, Color.MAROON);
 
