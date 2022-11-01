@@ -15,11 +15,11 @@ public static void Main(){
     List<string> winningWordSplit = new List<string>();
     winningWordSplit = word.SplitWord(winningWord); 
     //List<string> backupWordList = display.BackupList(winningWordSplit);
-    List<string> backupWordList = winningWordSplit;
+    List<string> backupWordList = new List<string>(winningWordSplit);
     while (keepPlaying)
         {
         // current letters
-        display.DisplayWord(backupWordList, winningWordSplit);
+        display.DisplayWord(winningWordSplit, backupWordList);
         // jumpguy
         display.DisplayJumper(numGuesses);
         // player guesses input

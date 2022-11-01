@@ -25,9 +25,9 @@ class Word
         }
    
     public List<string> removeLetter(string playerGuess, List<string> winningWordSplit) {
-        //List<string> fakeWordList = new List<string> (winningWordSplit);
+        List<string> copy = new List<string> (winningWordSplit);
         int lettercount = 0;
-        foreach (string letter in winningWordSplit){
+        foreach (string letter in copy){
             if (playerGuess == letter){
                 lettercount++;
             }
@@ -36,11 +36,11 @@ class Word
             // foreach (string letter in winningWordSplit){
             // Console.Write(letter);}
             for(int i = 0; i < lettercount; i++){
-                winningWordSplit.Remove(playerGuess);
+                copy.Remove(playerGuess);
             }
             // foreach (string letter in winningWordSplit){
             // Console.Write(letter);}
         }
-        return winningWordSplit;
+        return copy;
     }  
 }
