@@ -13,3 +13,4 @@ Jumper/bin/Debug/net6.0/Jumper.dll
 *.dll
 *.dll
 Jumper/obj/Debug/net6.0/Jumper.dll
+*.cache
