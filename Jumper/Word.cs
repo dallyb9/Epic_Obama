@@ -18,9 +18,11 @@ class Word
         string word = winningWordSplit;
         List<string> list = new List<string>();
         list = word.Split(' ').ToList();
-        foreach(string letter in list){
-            Console.Write(letter);
+        
+        /* foreach(string letter in list){
+            Console.Write(letter); 
         }
+        */
         return list;
         }
    

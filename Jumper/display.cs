@@ -28,7 +28,6 @@ class Display
         List<string> blankDisplay = new List<string> {"_ ", "_ ", "_ ", "_ ", "_ "};
     
         Console.Write("\n");
-        Console.Write($"letters left: {backupWordList.Count()}");
         foreach(string letter in backupWordList){
             // Console.Write(letter);
             bool missingletter = false;

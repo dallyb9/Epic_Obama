@@ -4,14 +4,13 @@ class Guesses
 
     public void AddGuess(string playerGuess) {
         guessedChar.Add(playerGuess);
-        Console.WriteLine(guessedChar);
+        //Console.WriteLine(guessedChar);
     }
 
 //List<string>
     public bool testGuess(string playerGuess, List<string> winningWordSplit){
-        Console.Write(winningWordSplit);
+        //Console.Write(winningWordSplit);
         foreach (string letter in winningWordSplit){
-            Console.WriteLine(letter);
             if (playerGuess == letter){
                 return true;
             }

@@ -1,17 +1,8 @@
 
-*.dll
 Jumper/bin/Debug/net6.0/Jumper.dll
 *.cache
 *.dll
 *.pdb
-*.dll
-*.dll
-*.pdb
-*.dll
-*.dll
-*.pdb
-*.dll
-*.dll
 Jumper/obj/Debug/net6.0/Jumper.dll
 *.cache
 Jumper/obj/Jumper.csproj.nuget.dgspec.json
@@ -28,9 +19,6 @@ Jumper/obj/Debug/net6.0/Jumper.csproj.FileListAbsolute.txt
 Jumper/obj/Debug/net6.0/Jumper.dll
 Jumper/obj/Debug/net6.0/Jumper.GeneratedMSBuildEditorConfig.editorconfig
 *.cache
-*.pdb
-*.dll
-*.dll
 Jumper/obj/Jumper.csproj.nuget.dgspec.json
 Jumper/obj/Jumper.csproj.nuget.g.props
 Jumper/obj/project.assets.json
