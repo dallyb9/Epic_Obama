@@ -1,12 +1,10 @@
 using Raylib_cs;
 using System.Numerics;
 class Movement: Player {
-    
-    
+    var PlayerRectangle = new Player();
+    var MovementSpeed = 5;
 
 static void playerMovement(){
-       var MovementSpeed = 5;
-       var PlayerRectangle = new Player();
     if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT)) {
         PlayerRectangle.x += MovementSpeed;
         }
@@ -22,5 +20,6 @@ static void playerMovement(){
     if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN)) {
         PlayerRectangle.y += MovementSpeed;
         }
+    return PlayerRectangle;
     }
 }
