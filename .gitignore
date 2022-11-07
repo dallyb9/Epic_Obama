@@ -24,3 +24,4 @@ Jumper/obj/Jumper.csproj.nuget.g.props
 Jumper/obj/project.assets.json
 Jumper/obj/project.nuget.cache
 Jumper/Program.cs
+*.cache

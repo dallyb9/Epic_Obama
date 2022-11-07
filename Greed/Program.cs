@@ -24,7 +24,8 @@ class Program
         {
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.WHITE);
-            Raylib.DrawText($"Score: {score.score}", 12, 12, 20, Color.BLACK);
+            Score.DrawScore();
+            
             Movement.playerMovement();
             if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
             {

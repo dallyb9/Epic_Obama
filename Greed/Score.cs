@@ -1,7 +1,10 @@
 using Raylib_cs;
 
-class Score{
+class Score {
     int score = 0;
+    public void DrawScore(){
+        Raylib.DrawText($"Score: {score}", 12, 12, 20, Color.BLACK);
+    }
     int addScore(){
         score = score + 100;
         return score;

@@ -1,6 +1,7 @@
 using Raylib_cs;
 
-class Rocks: Fallingobject{
+class Rocks : Fallingobject
+{
     string rock_template = "[]";
     var RockSize = 50;
     override public void Draw()
