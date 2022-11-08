@@ -3,9 +3,11 @@ using Raylib_cs;
 class Rocks : Fallingobject
 {
     string rock_template = "[]";
-    var RockSize = 50;
+    int RockSize = 50;
     public void Draw()
     {
+        //                                x,  y, size, color
+        Raylib.DrawText($"Score: {score}", 12, 12, 20, Color.BLACK);
         Raylib.DrawRectangle((int)Position.X, (int)Position.Y, RockSize, RockSize, Color.BLUE);
     }
 }

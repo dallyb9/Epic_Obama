@@ -27,26 +27,6 @@ class Program
             Score.DrawScore();
             
             Movement.playerMovement();
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
-            {
-                BallPosition.X += BallMovementSpeed;
-            }
-
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT))
-            {
-                BallPosition.X -= BallMovementSpeed;
-            }
-
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_UP))
-            {
-                BallPosition.Y -= BallMovementSpeed;
-            }
-
-            if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN))
-            {
-                BallPosition.Y += BallMovementSpeed;
-            }
-
 
             Raylib.DrawCircleV(BallPosition, BallRadius, Color.MAROON);
 
