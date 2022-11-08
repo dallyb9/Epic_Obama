@@ -7,7 +7,7 @@ class Rocks : Fallingobject
     public void Draw()
     {
         //                                x,  y, size, color
-        Raylib.DrawText($"Score: {score}", 12, 12, 20, Color.BLACK);
+        Raylib.DrawText($"{rock_template}", 12, 12, 20, Color.BLACK);
         Raylib.DrawRectangle((int)Position.X, (int)Position.Y, RockSize, RockSize, Color.BLUE);
     }
 }
