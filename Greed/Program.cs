@@ -30,7 +30,6 @@ class Program
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.WHITE);
             Score.DrawScore();
-            
             Movement.playerMovement();
             string chosencolor = ObjectColor.ChooseColor();
             if (framecount == 20){
