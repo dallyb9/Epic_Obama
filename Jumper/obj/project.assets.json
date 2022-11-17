@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/Jumper.csproj",
+      "projectUniqueName": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/Jumper.csproj",
       "projectName": "Jumper",
-      "projectPath": "/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/Jumper.csproj",
+      "projectPath": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/Jumper.csproj",
       "packagesPath": "/Users/DallinBentley/.nuget/packages/",
-      "outputPath": "/Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/",
+      "outputPath": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/DallinBentley/.nuget/NuGet/NuGet.Config"
