@@ -19,3 +19,11 @@
 /Users/DallinBentley/Documents/github/Epic_Obama/Greed/obj/Debug/net6.0/Greed.pdb
 /Users/DallinBentley/Documents/github/Epic_Obama/Greed/obj/Debug/net6.0/Greed.genruntimeconfig.cache
 /Users/DallinBentley/Documents/github/Epic_Obama/Greed/obj/Debug/net6.0/ref/Greed.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.csproj.AssemblyReference.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.AssemblyInfoInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.AssemblyInfo.cs
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.csproj.CoreCompileInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\refint\Greed.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\obj\Debug\net6.0\Greed.pdb

@@ -3,7 +3,12 @@ using System.Numerics;
 
 class Program
 {
-    Gems gems = new Gems();
+    
+
+    
+    public static void Main()
+    {
+        Gems gems = new Gems();
     Movement movement = new Movement();
     ObjectColor objectcolor = new ObjectColor();
     Player player = new Player();
@@ -11,13 +16,9 @@ class Program
     Rocks rocks = new Rocks();
     Score score = new Score();
 
-    
-    public static void Main()
-    {
         var ScreenHeight = 400;
         var ScreenWidth = 800;
         var PlayerPosition = new Vector2(ScreenHeight / 2, ScreenWidth / 2);
-        var PlayerMovementSpeed = 10;
         var Objects = new List<Fallingobject>();
         int framecount = 0;
 
@@ -29,14 +30,14 @@ class Program
             framecount++;
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.WHITE);
-            Score.DrawScore();
-            Movement.playerMovement();
-            string chosencolor = ObjectColor.ChooseColor();
+            score.DrawScore();
+            movement.playerMovement();
+            string chosencolor = objectcolor.ChooseColor();
             if (framecount == 20){
-                Rocks.Draw();
+                rocks.Draw();
                 }
             if (framecount == 40){
-                Gems.Draw();
+                gems.Draw();
                 framecount = 0;
                 }
             }
