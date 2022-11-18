@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Greed
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Greed\
+=======
+build_property.ProjectDir = /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Greed/
+>>>>>>> 652c1512d5c45607c1acbda9070392329add51c8

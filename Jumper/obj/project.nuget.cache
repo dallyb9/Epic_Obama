@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8VrUi0HJErDRLCTueMWR0IEIP2v7TnatfCAmPeE9RGrUxejYH7b+5OceuJLgIuOWIWi2AVabMz8eP7tNGAK9+w==",
   "success": true,
   "projectFilePath": "c:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj",
+=======
+  "dgSpecHash": "TKiFLY5HfGNOgnThUxgTMouj8G1h90lwD8TLSpQ3xxFg0GSGblFVT+fYXUzONajOT/fS6sLJAD6ryKGY6xrlpw==",
+  "success": true,
+  "projectFilePath": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/Jumper.csproj",
+>>>>>>> 652c1512d5c45607c1acbda9070392329add51c8
   "expectedPackageFiles": [],
   "logs": []
 }
