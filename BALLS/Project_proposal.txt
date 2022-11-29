@@ -1,0 +1,10 @@
+Little ball guy tries to find matching color 
+before the time runs out or he dies. 
+
+Principles: 
+Polymorphism 
+Encapsulation
+Inheritance
+Abstraction
+
+Classes:
