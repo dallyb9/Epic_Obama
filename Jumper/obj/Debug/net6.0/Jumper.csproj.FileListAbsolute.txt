@@ -1,18 +1,3 @@
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.exe
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.deps.json
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.runtimeconfig.json
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.dll
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.pdb
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.csproj.AssemblyReference.cache
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.AssemblyInfoInputs.cache
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.AssemblyInfo.cs
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.csproj.CoreCompileInputs.cache
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.dll
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/refint/Jumper.dll
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.pdb
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.genruntimeconfig.cache
-C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/ref/Jumper.dll
 /Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper
 /Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.deps.json
 /Users/DallinBentley/Documents/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.runtimeconfig.json
@@ -28,6 +13,23 @@ C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/ref
 /Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.pdb
 /Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.genruntimeconfig.cache
 /Users/DallinBentley/Documents/github/Epic_Obama/Jumper/obj/Debug/net6.0/ref/Jumper.dll
+<<<<<<< HEAD
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\bin\Debug\net6.0\Jumper.exe
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\bin\Debug\net6.0\Jumper.deps.json
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\bin\Debug\net6.0\Jumper.runtimeconfig.json
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\bin\Debug\net6.0\Jumper.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\bin\Debug\net6.0\Jumper.pdb
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.csproj.AssemblyReference.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.AssemblyInfoInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.AssemblyInfo.cs
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.csproj.CoreCompileInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\refint\Jumper.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.pdb
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\Jumper.genruntimeconfig.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\Jumper\obj\Debug\net6.0\ref\Jumper.dll
+=======
 /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper
 /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.deps.json
 /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/bin/Debug/net6.0/Jumper.runtimeconfig.json
@@ -43,3 +45,4 @@ C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/Jumper/obj/Debug/net6.0/ref
 /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.pdb
 /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/obj/Debug/net6.0/Jumper.genruntimeconfig.cache
 /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/obj/Debug/net6.0/ref/Jumper.dll
+>>>>>>> 652c1512d5c45607c1acbda9070392329add51c8
