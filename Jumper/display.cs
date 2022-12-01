@@ -42,5 +42,8 @@ class Display
             else {Console.Write("_ ");}
             //index++;
             }
+
         }
+        private void changeWord();
+        if word 
 }

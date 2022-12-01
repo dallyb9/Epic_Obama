@@ -16,13 +16,13 @@ Principles:
 -Abstraction
 
 Classes:
--Character 
--Movement
--Color 
+-Character: inherits Game Object
+-Movement 
+-Color
 -Time 
     begins the timer and counts down until player
     
 -Points 
--Game Objects
--Colisions  
+-Game Objects: inherits color
+-Colisions 
 

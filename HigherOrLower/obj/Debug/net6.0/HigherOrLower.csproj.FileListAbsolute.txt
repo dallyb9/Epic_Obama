@@ -5,9 +5,14 @@
 /Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfo.cs
 /Users/DallinBentley/Documents/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.CoreCompileInputs.cache
 =======
-C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.csproj.AssemblyReference.cache
-C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.AssemblyInfoInputs.cache
-C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.AssemblyInfo.cs
-C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\HigherOrLower\obj\Debug\net6.0\HigherOrLower.csproj.CoreCompileInputs.cache
+C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.AssemblyReference.cache
+C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfoInputs.cache
+C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfo.cs
+C:/Users/bkt44/Documents/A_CLASSES/cse210/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.CoreCompileInputs.cache
 >>>>>>> 0b528ffc9e044e1e083204b787684af848fbf38e
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.AssemblyReference.cache
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.GeneratedMSBuildEditorConfig.editorconfig
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfoInputs.cache
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.AssemblyInfo.cs
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/HigherOrLower/obj/Debug/net6.0/HigherOrLower.csproj.CoreCompileInputs.cache

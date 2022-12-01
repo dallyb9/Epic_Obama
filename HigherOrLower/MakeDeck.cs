@@ -7,7 +7,6 @@ using System.Collections.Generic;
 
     // List<string> spaces = new List<string>();
     IDictionary<int, int> deckOfCards = new Dictionary<int, int>();
-<<<<<<< HEAD
     public Deck(){
     
     
@@ -75,11 +74,9 @@ public object pickRandomCard(){
         return randomCard;
     
 
-=======
     //public SomeDictionary { get deckofCards; set dict = value; };
     public Deck()
     {
->>>>>>> 0b528ffc9e044e1e083204b787684af848fbf38e
         
 
 
