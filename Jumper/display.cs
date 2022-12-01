@@ -45,5 +45,5 @@ class Display
 
         }
         private void changeWord();
-        if word 
+        
 }
