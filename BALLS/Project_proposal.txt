@@ -1,10 +1,28 @@
 Little ball guy tries to find matching color 
 before the time runs out or he dies. 
 
+I will be completing this project with my team member.
+
+Steps: You are given a set time to find a coinciding color on a raylib board.
+You move your circle Character onto the correct color and gain 1 point.
+Failing to do so in the set time results in game over. 
+After finding the correct color, a new color is chosen for you to find and you are given less time to find it.
+This color finding will repeat until you have a game over.
+
 Principles: 
-Polymorphism 
-Encapsulation
-Inheritance
-Abstraction
+-Polymorphism 
+-Encapsulation
+-Inheritance
+-Abstraction
 
 Classes:
+-Character 
+-Movement
+-Color 
+-Time 
+    begins the timer and counts down until player
+    
+-Points 
+-Game Objects
+-Colisions  
+
