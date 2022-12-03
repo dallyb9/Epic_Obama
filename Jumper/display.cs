@@ -44,6 +44,4 @@ class Display
             }
 
         }
-        private void changeWord();
-        
 }

@@ -8,27 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bkt44\\.nuget\\packages\\": {}
+    "/Users/DallinBentley/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj",
-      "projectName": "Jumper",
-      "projectPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\Jumper.csproj",
-      "packagesPath": "C:\\Users\\bkt44\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bkt44\\Documents\\A_CLASSES\\cse210\\Epic_Obama\\Jumper\\obj\\",
-=======
       "projectUniqueName": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/Jumper.csproj",
       "projectName": "Jumper",
       "projectPath": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/Jumper.csproj",
       "packagesPath": "/Users/DallinBentley/.nuget/packages/",
       "outputPath": "/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/obj/",
->>>>>>> 652c1512d5c45607c1acbda9070392329add51c8
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bkt44\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/DallinBentley/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -67,8 +59,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/Jumper/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
