@@ -24,5 +24,5 @@ Classes:
     
 -Points 
 -Game Objects: inherits color
--Colisions 
+-Collisions 
 
