@@ -1,9 +1,10 @@
 using Raylib_cs;
-class Color{
+class Colors: GameObjects{
 
     public string GetColor()
     {
-        string color = "blue";
+        
+        string color = "BLUE";
         return color;
     }
 

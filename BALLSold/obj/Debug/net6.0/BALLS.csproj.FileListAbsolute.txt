@@ -1,0 +1,36 @@
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/bin/Debug/net6.0/BALLS
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/bin/Debug/net6.0/BALLS.deps.json
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/bin/Debug/net6.0/BALLS.runtimeconfig.json
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/bin/Debug/net6.0/BALLS.dll
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/bin/Debug/net6.0/BALLS.pdb
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.csproj.AssemblyReference.cache
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.AssemblyInfoInputs.cache
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.AssemblyInfo.cs
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.csproj.CoreCompileInputs.cache
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.dll
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/refint/BALLS.dll
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.pdb
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/BALLS.genruntimeconfig.cache
+/Users/DallinBentley/Documents/Visual Studio/github/Epic_Obama/BALLS/obj/Debug/net6.0/ref/BALLS.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.csproj.AssemblyReference.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.AssemblyInfoInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.AssemblyInfo.cs
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.csproj.CoreCompileInputs.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\BALLS.exe
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\BALLS.deps.json
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\BALLS.runtimeconfig.json
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\BALLS.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\BALLS.pdb
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.csproj.CopyComplete
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\refint\BALLS.dll
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.pdb
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\BALLS.genruntimeconfig.cache
+C:\Users\bkt44\Documents\A_CLASSES\cse210\Epic_Obama\BALLS\obj\Debug\net6.0\ref\BALLS.dll
