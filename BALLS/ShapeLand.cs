@@ -1,21 +1,25 @@
 using Raylib_cs;
 using System.Numerics;
 
-class ShapeLand {
+class ShapeLand
+{
 
-    Random Rdm = new Random();
+    // Random Rdm = new Random();
 
-    private Vector2 RandomPosition(int height, int width) {
-        var x = Rdm.Next(0, width);
-        var y = Rdm.Next(0, height);
-        return new Vector2(x, y);
-    }
+    // private Vector2 RandomPosition(int height, int width) {
+    //     var x = Rdm.Next(0, width);
+    //     var y = Rdm.Next(0, height);
+    //     return new Vector2(x, y);
+    // }
 
-    private int RdmNum() {
-        return Rdm.Next(25, 100);
-    }
+    // private int RdmNum() {
+    //     return Rdm.Next(25, 100);
+    // }
 
-    public void Play() {
+
+    RandomSelector RandomSelector = new RandomSelector();
+    public void Play()
+    {
         var ScreenHeight = 720;
         var ScreenWidth = 1280;
 
@@ -30,17 +34,18 @@ class ShapeLand {
         Player.Position = new Vector2(ScreenWidth / 2, ScreenHeight - 100);
         Title.Position = new Vector2(20);
 
-        for (int i = 0; i < CountOfEachShape; i++) {
-            var square = new GameSquare(RdmNum(), Color.GREEN);
-            square.Position = RandomPosition(ScreenHeight, ScreenWidth);
+        for (int i = 0; i < CountOfEachShape; i++)
+        {
+            var square = new GameSquare(RandomSelector.RdmNum(), Color.GREEN);
+            square.Position = RandomSelector.RandomPosition(ScreenHeight, ScreenWidth);
             Objects.Add(square);
 
-            var circle = new GameCircle(RdmNum(), Color.RED);
-            circle.Position = RandomPosition(ScreenHeight, ScreenWidth);
+            var circle = new CicleOjbective(RandomSelector.RdmNum(), Color.RED);
+            circle.Position = RandomSelector.RandomPosition(ScreenHeight, ScreenWidth);
             Objects.Add(circle);
 
-            var rectangle = new GameRectangle(RdmNum(), RdmNum(), Color.BLUE);
-            rectangle.Position = RandomPosition(ScreenHeight, ScreenWidth);
+            var rectangle = new GameRectangle(RandomSelector.RdmNum(), RandomSelector.RdmNum(), Color.BLUE);
+            rectangle.Position = RandomSelector.RandomPosition(ScreenHeight, ScreenWidth);
             Objects.Add(rectangle);
         }
 
@@ -53,15 +58,19 @@ class ShapeLand {
             Raylib.ClearBackground(Color.BLACK);
 
             // Draw all of the objects in their current location
-            foreach (var obj in Objects) {
+            foreach (var obj in Objects)
+            {
                 obj.Draw();
             }
 
             // Check if link is on any of the shapes
-            foreach (var obj in Objects) {
-                if (obj is Shape) {
+            foreach (var obj in Objects)
+            {
+                if (obj is Shape)
+                {
                     var shape = (Shape)obj;
-                    if (Raylib.CheckCollisionRecs(Player.Rect(), shape.CollisionRect())) {
+                    if (Raylib.CheckCollisionRecs(Player.Rect(), shape.CollisionRect()))
+                    {
                         var message = $"The area of this {shape.Name()} is {shape.Area()}";
                         Raylib.DrawText(message, 100, 100, 20, Color.WHITE);
                     }
@@ -71,7 +80,8 @@ class ShapeLand {
             Raylib.EndDrawing();
 
             // Move all of the objects to their next location
-            foreach (var obj in Objects) {
+            foreach (var obj in Objects)
+            {
                 obj.Move();
             }
         }

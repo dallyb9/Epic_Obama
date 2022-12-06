@@ -1,12 +1,12 @@
 using Raylib_cs;
 using System.Numerics;
 
-interface Shape {
+// interface Shape {
 
-    public string Name();
-    public double Area();
-    public Rectangle CollisionRect();
-}
+//     public string Name();
+//     public double Area();
+//     public Rectangle CollisionRect();
+// }
 
 class GameObject {
     public Vector2 Position { get; set; } = new Vector2(0, 0);
@@ -24,13 +24,13 @@ class GameObject {
     }
 }
 
-class ColoredObject: GameObject {
-    public Color Color { get; set; }
+// class ColoredObject: GameObject {
+//     public Color Color { get; set; }
 
-    public ColoredObject(Color color) {
-        Color = color;
-    }
-}
+//     public ColoredObject(Color color) {
+//         Color = color;
+//     }
+// }
 
 class GameSquare: ColoredObject {
     int Side;
@@ -59,17 +59,17 @@ class GameRectangle: ColoredObject {
     }
 }
 
-class GameCircle: ColoredObject {
+// class GameCircle: ColoredObject {
 
-    int Radius;
-    public GameCircle(int radius, Color color): base(color) {
-        Radius = radius;
-    }
+//     int Radius;
+//     public GameCircle(int radius, Color color): base(color) {
+//         Radius = radius;
+//     }
 
-    override public void Draw() {
-        Raylib.DrawCircleV(Position, Radius, Color);
-    }
-}
+//     override public void Draw() {
+//         Raylib.DrawCircleV(Position, Radius, Color);
+//     }
+// }
 
 class GameText: ColoredObject {
     string Text;
