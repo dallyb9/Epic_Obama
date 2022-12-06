@@ -2,7 +2,7 @@
     {
         public static void Main()
         {
-            var game = new ShapeLand();
+            var game = new Balls();
             game.Play(); 
         }
     }

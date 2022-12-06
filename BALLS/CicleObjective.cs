@@ -1,10 +1,10 @@
 using Raylib_cs;
 using System.Numerics;
 
-class CicleOjbective: ColoredObject {
+class CicleObjective: ColoredObject {
 
     int Radius;
-    public CicleOjbective(int radius, Color color): base(color) {
+    public CicleObjective(int radius, Color color): base(color) {
         Radius = radius;
     }
 
