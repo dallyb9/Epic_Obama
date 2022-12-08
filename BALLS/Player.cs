@@ -8,7 +8,7 @@ class Player : GameObject
     public Player()
     {
 
-        var image = Raylib.LoadImage("squidward1.png");
+        var image = Raylib.LoadImage("link.png");
         this.texture = Raylib.LoadTextureFromImage(image);
         Raylib.UnloadImage(image);
     }
