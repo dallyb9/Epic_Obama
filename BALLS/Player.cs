@@ -1,17 +1,20 @@
 using Raylib_cs;
 using System.Numerics;
-class Player: GameObject {
+class Player : GameObject
+{
 
     Texture2D texture;
 
-    public Player() {
-        
-        var image = Raylib.LoadImage("link.png");
+    public Player()
+    {
+
+        var image = Raylib.LoadImage("squidward1.png");
         this.texture = Raylib.LoadTextureFromImage(image);
         Raylib.UnloadImage(image);
     }
 
-    public Rectangle Rect() {
+    public Rectangle Rect()
+    {
         return new Rectangle(Position.X, Position.Y, 50, 53);
     }
 
@@ -21,19 +24,23 @@ class Player: GameObject {
         var velocity = new Vector2();
         var movementSpeed = 3;
 
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT)) {
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
+        {
             velocity.X = movementSpeed;
         }
 
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT)) {
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT))
+        {
             velocity.X = -movementSpeed;
         }
 
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_UP)) {
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_UP))
+        {
             velocity.Y = -movementSpeed;
         }
 
-        if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN)) {
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN))
+        {
             velocity.Y = movementSpeed;
         }
 
@@ -42,7 +49,8 @@ class Player: GameObject {
         base.Move();
     }
 
-    public override void Draw() {
+    public override void Draw()
+    {
         Raylib.DrawTexture(this.texture, (int)Position.X, (int)Position.Y, Color.WHITE);
     }
 }
