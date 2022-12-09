@@ -1,13 +1,15 @@
 using Raylib_cs;
 using System.Numerics;
+using System;  
+using System.Threading.Tasks;
 
 class Balls
 {
     RandomSelector RandomSelector = new RandomSelector();
     public void Play()
     {
-        var ScreenHeight = 720;
-        var ScreenWidth = 1280;
+        var ScreenHeight = 500;
+        var ScreenWidth = 500;
 
         //Time time = new Time();
         // bool GameOver = false;
@@ -36,6 +38,10 @@ class Balls
         int oldscore = -1;
         int winObj = 0;
         List<string> colorList = new List<string>();
+        DateTime newTimer = DateTime.Now;
+        //var timerEnd = newTimer.AddSeconds(10);
+        DateTime timerEnd = DateTime.Now.AddSeconds(10);
+        // DateTime remainingTime = DateTime.Now.AddSeconds(10);
 
         // MAIN WHILE LOOP
         while (!Raylib.WindowShouldClose())
@@ -122,19 +128,35 @@ class Balls
                 var winColorText = new GameText($"Find: {winColor}", Color.WHITE);
                 winColorText.Position = new Vector2((ScreenWidth / 2) - 60, 100);
 
-                scoreText = new GameText($"Score: {score}", Color.WHITE);
+                scoreText = new GameText($"Score: {score}", Color.BLACK);
+                scoreText.Position = new Vector2(20, 20);
 
                 Objects.Add(Player);
                 Objects.Add(winColorText);
                 Objects.Add(scoreText);
-                Objects.Add(timerText);
             }
+
+            string remainingTime = (timerEnd - newTimer).ToString("ss");
+            timerText = new GameText($"Time left: {remainingTime}", Color.WHITE);
+            timerText.Position = new Vector2((ScreenWidth / 2) - 60, 50);
+            Objects.Add(timerText);
             // remove all objects from 'Objects' list
             //Objects = new List<GameObject>();
 
             // reset player position
             //Player.Position = new Vector2(ScreenWidth / 2, ScreenHeight - 100);
             oldscore = score;
+            if (newTimer >= timerEnd){
+                    Console.WriteLine("GAME OVERRRRRRRRRRRRRRRRRRRRRRR");
+                    Objects.Remove(Player);
+                }
+            newTimer = DateTime.Now;
+        
+            Console.WriteLine($"newTimer: {newTimer.ToString("ss")}");
+            Console.WriteLine($"timerEnd: {timerEnd.ToString("ss")}");
+          
+            
+            
             Raylib.BeginDrawing();
             Raylib.ClearBackground(Color.BLACK);
             //Time.Timer();
@@ -148,6 +170,9 @@ class Balls
             // Check if link is on any of the shapes
             foreach (var obj in Objects)
             {
+                // if (DateTime.Now == timerEnd){
+                //     Console.WriteLine("DEATH");
+                // }
                 if (obj is CircleObjective)
                 {
                     var shape = (CircleObjective)obj;
@@ -162,6 +187,12 @@ class Balls
                             Player.Position = new Vector2(ScreenWidth / 2, ScreenHeight / 2);
                             Console.WriteLine("Collided with Winning sphere");
                             score++;
+                            if (score < 10){
+                            timerEnd = DateTime.Now.AddSeconds(10-(.7*score));
+                            }
+                            else {
+                                timerEnd = DateTime.Now.AddSeconds(1.4);
+                            }
                         }
                         //Raylib.DrawText("Nice", 100, 100, 20, Color.WHITE);
 
@@ -170,6 +201,8 @@ class Balls
                     }
                 }
             }
+
+            Objects.Remove(timerText);
 
 
 

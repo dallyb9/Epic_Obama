@@ -1,6 +1,6 @@
 ﻿static class Program
     {
-        public static void Main()
+        private static void Main()
         {
             var game = new Balls();
             game.Play(); 

@@ -35,7 +35,7 @@ class GameObject {
 class GameSquare: ColoredObject {
     int Side;
 
-    public GameSquare(int side, Color color): base(color) {
+    private GameSquare(int side, Color color): base(color) {
         Side = side;
     }
 
@@ -49,7 +49,7 @@ class GameRectangle: ColoredObject {
     int Width;
     int Height;
 
-    public GameRectangle(int w, int h, Color color): base(color) {
+    private GameRectangle(int w, int h, Color color): base(color) {
         Width = w;
         Height = h;
     }

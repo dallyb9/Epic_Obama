@@ -11,9 +11,6 @@ class CircleObjective: ColoredObject{
         Win = false;
     }
     
-
-
-
     override public void Draw() {
         Raylib.DrawCircleV(Position, Radius, Color);
     }
